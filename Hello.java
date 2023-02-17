@@ -74,3 +74,10 @@ class Hello {
         }
     }
 }
+
+/* 
+Unlike other languages, Java does not allow the programmer to choose whether to pass each argument by value or by reference. 
+Primitive data type variables are always passed by value. Objects are not passed to methods; rather, references to objects are passed to methods. 
+The references themselves are passed by value—a copy of a reference is passed to a method. When a method receives a reference to an object, 
+the method can manipulate the object directly.
+*/
